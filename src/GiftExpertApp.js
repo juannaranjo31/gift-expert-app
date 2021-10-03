@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { AddCategory } from './components/AddCategory';
 import { GiftGrid } from './components/GiftGrid';
 
-const GiftExpertApp = () => {
+const GiftExpertApp = ( {defaultCategories = [] } ) => {
 
-    const [Categories, setCategories] = useState(['One punch']);
+    const [Categories, setCategories] = useState(defaultCategories);
 
     return <>
         <h2>GiftExpertApp</h2>

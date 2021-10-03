@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre <AddCategory /> Debe reenderizatse correctamente 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    onChange={[Function]}
+    placeholder="Ingrese una categoria para su busqueda de gifts :)"
+    type="text"
+    value=""
+  />
+</form>
+`;
